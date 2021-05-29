@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Compras</title>
+	<link rel="stylesheet" type="text/css" href="CSS2/folhasdeestilo2.css">
+	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
+</head>
+<body>
+	<section>
+		<div class="divCompras">
+		<form action="Identificacao.html" method="get">
+			<fieldset>
+			<legend>
+				Seleção de Produtos e Lista de Compras
+			</legend>
+			<fieldset class="elemEsq">
+				<legend>
+					Selecionado
+				</legend>
+				<label class="colLabSelProd" for="Produto">Produto:
+					<select class="colSelProd">
+					<option>---</option>
+					<optgroup label="Camisa">
+					<option>Lisa</option>
+					<option>Mercúrio</option>
+					<option>Vênus</option>
+					<option>Terra</option>
+					<option>Marte</option>
+					<option>Júpiter</option>
+					<option>Saturno</option>
+					<option>Urano</option>
+					<option>Netuno</option>
+					<option>Plutão</option>
+					</optgroup>
+					<optgroup label="Mascara">
+					<option>Lisa</option>
+					<option>Cometa</option>
+					</optgroup>
+				</select>
+				</label>
+				<br><br>
+				<label class="colLabSelProd" for="Tamanho">
+					Tamanho:
+					<select class="colSelProd">
+					<option>---</option>
+					<option>Pequena</option>
+					<option>Média</option>
+					<option>Grande</option>
+					<option>Extra Grande</option>
+				</select>
+				</label>
+				<br><br>
+				<label class="colLabSelProd" for="Cor">
+					Cor:
+					<select class="colSelProd">
+					<option>---</option>
+					<option>Preto</option>
+					<option>Branco</option>
+					<option>Azul</option>
+					<option>Lilas</option>
+				</select>
+				</label>
+				<br><br>
+				<label class="colLabSelProd" for="Modelo">
+					Modelo:
+					<select class="colSelProd">
+					<option>---</option>
+					<option>T-Shirt</option>
+					<option>Baby Look</option>
+					<option>Sem Manga</option>
+				</select>
+				</label>
+				<br><br>
+				<input class="linhaProdSel" type="text" name="resumo" readonly>
+				<br>
+				<label for="Comprar">
+					<input class="elemEsq" class="botoes" type="button" name="Comprar" value="Comprar">
+					<label for="Valor" class="elemDir">R$
+				<input class="impMedio" type="text" name="valor" readonly>
+				</label>
+				</label>
+			</fieldset>
+			<label><textarea class="listaCompras" readonly></textarea>
+				<br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<label class="elemDir" for="Total"> Total R$ <input class="impMedio" readonly type="text" name="total"></label></label>
+			</fieldset>
+			<div class="botoes"><button type="submit">Continuar</button>
+			<input type="reset" name="Limpar" value="Limpar">
+			<div>
+		</form>
+		</div>
+	</section>
+</body>
+</html>
